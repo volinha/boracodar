@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, ChangeEvent } from 'react'
+import { useState, ChangeEvent, useEffect } from 'react'
 import './style.css'
 
 import { Palette, Sun, CircleHalf } from '@phosphor-icons/react';
@@ -24,8 +24,12 @@ export default function Page() {
   const [saturationValue, setSaturationValue] = useState<number>(100); // valor inicial de saturação
   const [lightnessValue, setLightnessValue] = useState<number>(50);    // valor inicial de iluminação
 
-  const hueThumbSelector = document.getElementById('hue-slider');
-  hueThumbSelector?.style.setProperty('--hue-value', hueValue.toString()); // atualiza o valor de matiz no css
+  useEffect(() => {
+    const hueThumbSelector = document.getElementById('hue-slider');
+    if (hueThumbSelector) {
+      hueThumbSelector.style.setProperty('--hue-value', hueValue.toString());
+    }
+  }, []); // atualiza o valor de matiz no css
 
   const handleHueChange = (event: ChangeEvent<HTMLInputElement>) => {
     setHueValue(Number(event.target.value));
