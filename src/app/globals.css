@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body {
+  background: rgb(39, 26, 69);
+  background: -moz-linear-gradient(120deg, rgba(39, 26, 69, 1) 0%, rgba(18, 18, 20, 1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(39, 26, 69, 1) 0%, rgba(18, 18, 20, 1) 100%);
+  background: linear-gradient(120deg, rgba(39, 26, 69, 1) 0%, rgba(18, 18, 20, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#271a45",endColorstr="#121214",GradientType=1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer utilities {
+  .clip-background {
+    -webkit-clip-path: polygon(0 15%, 100% 15%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 15%, 100% 15%, 100% 100%, 0% 100%);
+
+    background-color: #9b6647;
+  }
+
+  .clip-background-hover {
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+
+    background-color: #9b6647;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
