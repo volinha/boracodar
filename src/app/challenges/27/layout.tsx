@@ -17,7 +17,7 @@ export default function Page() {
                     <button className="bg-[#151557] hover:bg-[#212187] transition-all p-4 rounded-full uppercase">Ir para a home</button>
                 </div>
             </div>
-            <div className="justify-center gap-2 items-center inline-flex">
+            <div className="justify-center gap-2 items-center inline-flex drop-shadow-404">
                 <Image src={num} alt="number" width={80} height={80} className="bg-transparent"/>
                 <iframe src="https://lottie.host/?file=ab7a5c4d-d0de-4877-be5e-8cffedab2bf1/f7kJBYBWYz.json" width={230} height={230}></iframe>
                 <Image src={num} alt="number" width={80} height={80}/>
