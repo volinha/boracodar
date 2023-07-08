@@ -7,7 +7,7 @@ export default function Card(
         { title: string, number: number, description: string }
 ) {
     return (
-        <Link href={`/challenges/${number}`} target="_blank" className="w-96 aspect-video">
+        <Link href={`/challenges/${number}`} target="_blank" className="drop-shadow-[0_0_35px_rgba(0,0,0,0.25)] w-96 aspect-video">
             <div className="relative w-full max-w-[350px] border-2 border-white/30 group text-white hover:shadow-lg hover:-translate-y-4 hover:translate-x-4 transition-all">
             <Image className="w-full aspect-auto grayscale group-hover:grayscale-0 transition-all" src={`/images/${number}.png`} width={250} height={200} alt="fundo" />
                 <div className="absolute bottom-2 overflow-auto m-1">

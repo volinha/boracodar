@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow:{
+        '404': 'box-shadow: 0px 30px 196px 0px rgba(112, 0, 255, 0.70)'
+      },
       backgroundImage: () => ({
         'gradient-radial-to-tr': 'radial-gradient(115% 90% at 0% 100%, var(--tw-gradient-stops))',
         'gradient-radial-to-tl': 'radial-gradient(115% 90% at 100% 100%, var(--tw-gradient-stops))',
