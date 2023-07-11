@@ -4,16 +4,16 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen overflow-x-hidden bg-gradient-radial-to-br from-rs-purple-700 to-rs-gray flex flex-col justify-between">
-      <header className="w-full flex items-center justify-center p-4 bg-rs-gray text-white border-b-2 border-[#323238]">
+    <main className="h-full md:h-screen w-screen md:overflow-x-hidden bg-gradient-radial-to-br from-rs-purple-700 to-rs-gray flex flex-col justify-between">
+      <header className="w-full flex items-center justify-center p-4 bg-rs-gray text-white border-b-2 border-[#323238] sticky top-0 z-10 md:static">
         <div className="text-2xl cursor-default"><span className='text-rs-purple-500 text-3xl font-bold'>#</span>boraCodar <span className="text-3xl text-rs-purple-500">&#123;</span>hub<span className="text-3xl text-rs-purple-500">&#125;</span></div>
       </header>
-      <div 
-      className="grid 
-      grid-cols-1 p-1 gap-4 flex-grow grid-rows-2
-      sm:grid-cols-3 sm:p-4
-      xl:grid-cols-4
-      ">
+      <div className="flex-1 h-48 min-h-48 grid grid-cols-1 p-3 gap-4 flex-grow sm:grid-cols-3 sm:p-4 xl:grid-cols-4">
+        <Card
+          title="Página 404"
+          number={27}
+          description="Desenvolver a uma página 404 com animações e botões de navegação."
+        />
 
         <Card
           title="Receita Junina"
