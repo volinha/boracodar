@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderWidth:{
+        '1': '1px',
+      },
       dropShadow:{
         '404': '0 0 196px rgba(112, 0, 255, 0.7)'
       },
