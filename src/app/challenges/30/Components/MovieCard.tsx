@@ -8,7 +8,7 @@ export default function MovieCard() {
         <div className="flex flex-col items-center justify-center gap-2">
             <div className="w-full text-white flex items-center justify-between">
                 <p className="text-xl">Barbie</p>
-                <p className="flex items-center gap-1 text-base font-semibold">
+                <p className="flex items-center gap-1 text-base text-[#FEEA35] font-semibold">
                     <Star size={16} color="#FEEA35" weight="fill" />
                     4,9
                 </p>
@@ -26,7 +26,7 @@ export default function MovieCard() {
                     <span>2023</span>
                 </div>
             </div>
-            <button className="flex items-center justify-evenly gap-2 w-full bg-[#2B2B37] rounded-sm text-white px-4 py-2">
+            <button className="flex items-center justify-evenly gap-2 w-full bg-[#2B2B37]/80 hover:bg-[#2B2B37] transition-all rounded-sm text-white px-4 py-2">
             <PlayCircle size={28} color="#fef6f6" weight="fill" />
                 <span>Assistir trailer</span>
             </button>
