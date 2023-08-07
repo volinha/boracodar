@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# #boraCodar {hub}
 
-## Getting Started
+Criado em plataforma NextJS 13.
 
-First, run the development server:
+## 🤔 Resumo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Esta aplicação tem por objetivo reunir alguns dos desafios propostos pela [Rocketseat](https://www.rocketseat.com.br/boracodar) no #boraCodar.
+
+## 🛠️ Principais Ferramentas
+
+#### IDE:
+
+- [Visual Studio Code](https://code.visualstudio.com)
+
+#### Linguagem:
+
+- [TypeScript](https://www.typescriptlang.org)
+
+## ⌨️ Utilização
+
+Acessar a versão online hospedada na Vercel [(versão web)](boracodar-beta.vercel.app) ou instalando localmente utilizando pnpm.
+Para a versão local:
+
+### Clonar o repositório:
+
+``` bash
+$ git clone https://github.com/volinha/boracodar
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Instalar e rodar o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+``` bash
+$ cd .\boracodar\
+$ pnpm install
+$ pnpm dev
+```
+E o site projeto será inicializado localmente!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ✨ Funcionalidades
 
-## Learn More
+### Acessar os projetos
+- Basta clicar no projeto desejado!
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Em desenvolvimento
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Melhorias na responsividade.
+- Melhorias na qualidade das imagens.
+- Reorganização de nomes de arquivos.
+- Reorganização de algumas tipagens.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### 💻 Desenvolvido com 💘 por Vinícius Fernandes
+[<img src = "https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white">](https://www.facebook.com/viniciusfvb)
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/viniciusfernandesdev/)
+[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />](https://twitter.com/volafernandes)
+<a href = "mailto:viniciusfernandesdev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<br />
