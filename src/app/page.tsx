@@ -10,9 +10,9 @@ export default function Home() {
       </header>
       <div className="flex-1 h-48 min-h-48 grid grid-cols-1 p-3 gap-4 flex-grow sm:grid-cols-3 sm:p-4 xl:grid-cols-4">
         <Card
-          title="Página 404"
+          title="Menu IA"
           number={28}
-          description="Desenvolver a uma página 404 com animações e botões de navegação."
+          description="Desenvolver um menu de opções de ferramentas de IA."
         />
 
         <Card
